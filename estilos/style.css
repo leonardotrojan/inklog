@@ -30,6 +30,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0px 13px;
+    position: fixed;
+    z-index: 40;
 }
 
 header > h1 {
@@ -53,7 +55,7 @@ header > nav > button > img {
 
 main {
     background-color: #fff;
-    padding-top: 50px;
+    padding-top: 110px;
 }
 
 main > section#recomend {
@@ -75,6 +77,8 @@ main > section#recomend > section#books {
     height: 200px;
     background-color: var(--cor3);
     padding: 10px;
+    display: flex;
+    gap: 7px;
 }
 
 article.book {
@@ -84,7 +88,7 @@ article.book {
     padding: 10px 20px;
 }
 
-article.book > div#img {
+article.book > div.img {
     background-color: white;
     height: 120px;
     width: 90px;
